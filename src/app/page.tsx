@@ -299,7 +299,7 @@ active:text-[var(--main-color)]"
                   <p>
                     A web based application used for calculating the boolean simplification thus Product of sum, and Sum of product of a given boolean expression. Built with MERN stack
                     <Link
-                      href="https://github.com/Joeboy77/AppTour.git"
+                      href="https://boolean-x8mp3p3n7-josephs-projects-b3ed37ce.vercel.app/"
                       className="text-blue-500 
                       hover:underline ml-2"
                       target="_blank"
