@@ -290,6 +290,25 @@ active:text-[var(--main-color)]"
                   </p>
                 </div>
               </div>
+
+              <div className="education-content">
+                <div className="content">
+                  <div className="year">
+                    <h3>Boolean Simplification</h3>
+                  </div>
+                  <p>
+                    A web based application used for calculating the boolean simplification thus Product of sum, and Sum of product of a given boolean expression. Built with MERN stack
+                    <Link
+                      href="https://github.com/Joeboy77/AppTour.git"
+                      className="text-blue-500 
+                      hover:underline ml-2"
+                      target="_blank"
+                    >
+                      Read More
+                    </Link>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 
