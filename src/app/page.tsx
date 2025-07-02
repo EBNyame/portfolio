@@ -132,7 +132,7 @@ active:text-[var(--main-color)]"
             <h3>Backend Developer</h3>
           </div>
           <p>
-            I'm a backend developer with a strong focus on building scalable, efficient, and reliable systems using <span style={{color: 'red'}}>Python</span> and <span style={{color: 'green'}}>Golang</span>. At RnT Devs, I work on architecting backend services, designing RESTful and gRPC APIs, and implementing microservices that support both web and mobile platforms.
+            I'm a backend developer with a strong focus on building scalable, efficient, and reliable systems using <span style={{color: 'red'}}>Python</span> and <span style={{color: 'green'}}>Golang</span>. At EckTech, I work on architecting backend services, designing RESTful and gRPC APIs, and implementing microservices that support both web and mobile platforms.
             My work involves building robust server-side logic, managing databases, and ensuring application performance and security at scale. I'm particularly passionate about writing clean, maintainable code and designing systems that can evolve with growing product demands.
             As I deepen my expertise in backend engineering, I remain committed to solving real-world problems with thoughtful, well-engineered solutions.
           </p>
