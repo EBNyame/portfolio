@@ -2,8 +2,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from "@mui/icons-material/GitHub";
-import XIcon from "@mui/icons-material/X";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import { Menu } from "lucide-react";
 import { useState } from "react";
@@ -132,24 +132,15 @@ active:text-[var(--main-color)]"
             <h3>Backend Developer</h3>
           </div>
           <p>
-            I'm a passionate Full Stack mobile and web engineer currently honing my skills at
-            RnT Devs. On the front-end, I've mastered React.js and Tailwind CSS,
-            creating responsive and dynamic web user interfaces also react native for mobile applications. As I continue my
-            journey, I have dived deeper into back-end technologies for building
-            comprehensive <span style={{color: 'green'}}>(MERN)</span>, full-stack applications. Stay tuned as I continue to
-            expand my skill set and bring innovative ideas to life!
-
-            I'm a backend developer with a strong focus on building scalable, efficient, and reliable systems using Python and Golang. At RnT Devs, I work on architecting backend services, designing RESTful and gRPC APIs, and implementing microservices that support both web and mobile platforms.
-
+            I'm a backend developer with a strong focus on building scalable, efficient, and reliable systems using <span style={{color: 'red'}}>Python</span> and <span style={{color: 'green'}}>Golang</span>. At RnT Devs, I work on architecting backend services, designing RESTful and gRPC APIs, and implementing microservices that support both web and mobile platforms.
             My work involves building robust server-side logic, managing databases, and ensuring application performance and security at scale. I'm particularly passionate about writing clean, maintainable code and designing systems that can evolve with growing product demands.
-
             As I deepen my expertise in backend engineering, I remain committed to solving real-world problems with thoughtful, well-engineered solutions.
           </p>
         
           <div className="btn-box">
             <Link
               href={
-                "https://www.linkedin.com/in/acheampong-joseph-32b969261"
+                "https://www.linkedin.com/in/exodus-blessed-nyame-715889283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
               }
               className="btn" target="_blank"
             >
@@ -157,7 +148,7 @@ active:text-[var(--main-color)]"
             </Link>
             <Link
               href={
-                "https://www.linkedin.com/in/acheampong-joseph-32b969261"
+                "https://wa.me/+233256749988"
               }
               className="btn" target="_blank"
             >
@@ -166,7 +157,7 @@ active:text-[var(--main-color)]"
           </div>
           <div className="flex-space-x-4 home-sci">
             <Link
-              href="https://www.linkedin.com/in/acheampong-joseph-32b969261"
+              href="https://www.linkedin.com/in/exodus-blessed-nyame-715889283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
               target="_blank"
               rel="noopener noreferrer"
               className="bx-bx1-linkedin"
@@ -174,18 +165,18 @@ active:text-[var(--main-color)]"
               <LinkedInIcon className="icon" sx={{ fontSize: 25 }} />
             </Link>
             <Link
-              href={"https://github.com/joeboy77"}
+              href={"https://github.com/ebnyame"}
               target="_blank"
               className="bx-bx1-github"
             >
               <GitHubIcon className="icon" sx={{ fontSize: 25 }} />
             </Link>
             <Link
-              href={"https://x.com/Acheampong98911"}
+              href={"https://www.instagram.com/mcjerzy_bl?igsh=bGVza292ZjNpeWhi&utm_source=qr"}
               target="_blank"
               className="bx-bx1-x"
             >
-              <XIcon className="icon" sx={{ fontSize: 25 }} />
+              <InstagramIcon className="icon" sx={{ fontSize: 25 }} />
             </Link>
           </div>
         </div>
@@ -202,7 +193,7 @@ active:text-[var(--main-color)]"
             
         <div className="about-image relative w-[25rem] h-[25rem] rounded-full flex justify-center items-center">
       <Image
-        src="/me1.png" 
+        src="/exodus.jpeg" 
         alt="Profile Image"
         width={225}
         height={225}
@@ -212,15 +203,13 @@ active:text-[var(--main-color)]"
     </div>
 
         <div className="about-content">
-          <h2>Full Stack Engineer</h2>
+          <h2>Backend Developer</h2>
           <p className="about-para">
-            I'm a passionate Full Stack Mobile and Web Engineer currently honing my skills at
-            RnT Devs. On the front-end, I've mastered React.js and Tailwind CSS,
-            creating responsive and dynamic web user interfaces and react native for mobile applications. As I continue my
-            journey, I dived deeper into back-end technologies to build
-            comprehensive <span style={{color: 'green'}}>(MERN)</span>, full-stack applications. Stay tuned as I continue to
-            expand my skill set and bring innovative ideas to life!
-          </p>
+            I'm a backend developer specializing in building scalable, reliable, and high-performance systems using <span style={{ color: 'red', fontWeight: 'bold' }}>Python</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>Golang</span>
+. I focus on architecting backend services, designing RESTful and gRPC APIs, and implementing microservices that support both web and mobile applications.
+            My backend toolkit includes PostgreSQL for robust relational data management and AWS for cloud infrastructure, deployment, and scalability. I regularly work with services like EC2, S3, and RDS to ensure secure and efficient backend operations in production environments.
+            With a strong foundation in server-side logic, database optimization, and cloud-based deployment, I take pride in developing clean, maintainable code and backend architectures that are built to last. I'm driven by a problem-solving mindset and a passion for designing systems that can grow with the needs of a product or team.
+                      </p>
 
           <div className="btn-box btns">
             <a href="#about" className="btn">
@@ -233,256 +222,262 @@ active:text-[var(--main-color)]"
       {/* -----------------------project section--------------------------- */}
 
       <section className="education" id="education">
-        <h2 className="heading">
-          My <span>Projects </span>
-        </h2>
+  <h2 className="heading">
+    My <span>Projects</span>
+  </h2>
 
-        <div className="education-row">
-          <div className="education-column">
-            {/* <h3 className="title">Education</h3> */}
+  <div className="education-row">
+    <div className="education-column">
+      <div className="education-box">
 
-            <div className="education-box">
-              <div className="education-content">
-                <div className="content">
-                  <div className="year">
-                    <h3>Business App</h3>
-                  </div>
-                  <p>
-                    The Business App is a comprehensive and active mobile application built with react native and firebase (BaaS) where users can advertise their business, users can get services on the platform and more
-                    <Link
-                      href="https://github.com/Joeboy77/BusinessApp.git"
-                      className="text-blue-500 hover:underline ml-2"
-                      target="_blank"
-                    >
-                      Read More
-                    </Link>
-                  </p>
-                </div>
-              </div>
-
-              <div className="education-content">
-                <div className="content">
-                  <div className="year">
-                    <h3>Tour App</h3>
-                  </div>
-                  <p>
-                    A classic Tour mobile app. It allows users to expliot the numerous tourist attraction around their current location as well as the service they porvide.
-                    <Link
-                      href="https://github.com/Joeboy77/AppTour.git"
-                      className="text-blue-500 
-                      hover:underline ml-2"
-                      target="_blank"
-                    >
-                      Read More
-                    </Link>
-                  </p>
-                </div>
-              </div>
-
-              <div className="education-content">
-                <div className="content">
-                  <div className="year">
-                    <h3>ASCII_CONVERTOR</h3>
-                  </div>
-                  <p>
-                  A site for converting words and letters to its ASCII equivalence. Built with HTML, CSS, and plain Javascript
-                    <Link
-                      href="https://github.com/Joeboy77/ASCII_Convertor.git"
-                      className="text-blue-500 hover:underline ml-2"
-                      target="_blank"
-                    >
-                      Read More
-                    </Link>
-                  </p>
-                </div>
-              </div>
-
-              <div className="education-content">
-                <div className="content">
-                  <div className="year">
-                    <h3>Boolean Simplification</h3>
-                  </div>
-                  <p>
-                    A web based application used for calculating the boolean simplification thus Product of sum, and Sum of product of a given boolean expression. Built with MERN stack
-                    <Link
-                      href="https://boolean-x8mp3p3n7-josephs-projects-b3ed37ce.vercel.app/"
-                      className="text-blue-500 
-                      hover:underline ml-2"
-                      target="_blank"
-                    >
-                      Read More
-                    </Link>
-                  </p>
-                </div>
-              </div>
+        <div className="education-content">
+          <div className="content">
+            <div className="year">
+              <h3>Task Manager API</h3>
             </div>
-          </div>
-
-          {/* --------------2nd column----------- */}
-
-          <div className="education-column">
-            {/* <h3 className="title">Experience</h3> */}
-            <div className="education-box">
-              <div className="education-content">
-                <div className="content">
-                  <div className="year">
-                    <h3>HCI</h3>
-                  </div>
-                  <p>
-                  This react native app helps you borrow and buy book directly from a library withou you going there to. Has section for users and admins. Admins can accept borrow requests, decline, send messages to the user if their borrow time is up. Books are divided into several sections and departments
-                    <Link
-                      href="https://github.com/Joeboy77/HCI_App.git"
-                      className="text-blue-500 
-                      hover:underline ml-2"
-                      target="_blank"
-                    >
-                      Read More
-                    </Link>
-                  </p>
-                </div>
-              </div>
-
-              <div className="education-content">
-                <div className="content">
-                  <div className="year">
-                    <h3>To-Do App</h3>
-                  </div>
-                  <p>
-                  A simple to-do list application.
-                  Users are prompted to enter tasks, which are added to a list. The program continues to ask for more tasks until the user confirms they are finished. Finally, the completed to-do list is displayed.
-                    <Link
-                      href="https://github.com/Joeboy77/Todo_App.git"
-                      className="text-blue-500 
-                       hover:underline ml-2"
-                      target="_blank"
-                    >
-                      Read More
-                    </Link>
-                  </p>
-                </div>
-              </div>
-
-              <div className="education-content">
-                <div className="content">
-                  <div className="year">
-                    <h3>Cloth_App</h3>
-                  </div>
-                  <p>
-                  A mobile app where user can buy cloth categorized into women, men and children
-                    <Link
-                      href="https://github.com/Joeboy77/ClothApp.git"
-                      className="text-blue-500 
-                       hover:underline ml-2"
-                      target="_blank"
-                    >
-                      Read More
-                    </Link>
-                  </p>
-                </div>
-              </div>
-            </div>
+            <p>
+              A RESTful API built with Python (FastAPI) and PostgreSQL. Features user authentication with JWT, CRUD task management, and role-based access control.
+              <Link
+                href="#"
+                className="text-blue-500 hover:underline ml-2"
+                target="_blank"
+              >
+                Read More
+              </Link>
+            </p>
           </div>
         </div>
-      </section>
+
+        <div className="education-content">
+          <div className="content">
+            <div className="year">
+              <h3>Go Auth Service</h3>
+            </div>
+            <p>
+              A lightweight authentication microservice built with Golang and PostgreSQL. Implements user login, registration, password hashing, and JWT-based sessions.
+              <Link
+                href="#"
+                className="text-blue-500 hover:underline ml-2"
+                target="_blank"
+              >
+                Read More
+              </Link>
+            </p>
+          </div>
+        </div>
+
+        <div className="education-content">
+          <div className="content">
+            <div className="year">
+              <h3>File Upload API (AWS S3)</h3>
+            </div>
+            <p>
+              A FastAPI backend service that lets users upload and manage files securely using AWS S3. Supports file size limits, pre-signed URLs, and authentication.
+              <Link
+                href="#"
+                className="text-blue-500 hover:underline ml-2"
+                target="_blank"
+              >
+                Read More
+              </Link>
+            </p>
+          </div>
+        </div>
+
+        <div className="education-content">
+          <div className="content">
+            <div className="year">
+              <h3>Real-Time Chat API</h3>
+            </div>
+            <p>
+              Built with Golang and WebSockets, this backend service supports real-time messaging across multiple rooms with user presence tracking and persistent chat history.
+              <Link
+                href="#"
+                className="text-blue-500 hover:underline ml-2"
+                target="_blank"
+              >
+                Read More
+              </Link>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    {/* --------------2nd column----------- */}
+
+    <div className="education-column">
+      <div className="education-box">
+
+        <div className="education-content">
+          <div className="content">
+            <div className="year">
+              <h3>Expense Tracker API</h3>
+            </div>
+            <p>
+              A backend API developed with Python and PostgreSQL to help users log and categorize their expenses. Includes analytics endpoints for monthly and yearly summaries.
+              <Link
+                href="#"
+                className="text-blue-500 hover:underline ml-2"
+                target="_blank"
+              >
+                Read More
+              </Link>
+            </p>
+          </div>
+        </div>
+
+        <div className="education-content">
+          <div className="content">
+            <div className="year">
+              <h3>URL Shortener (Go)</h3>
+            </div>
+            <p>
+              A simple URL shortening service built in Go. Stores short links in PostgreSQL and handles redirect logic, click tracking, and expiration logic.
+              <Link
+                href="#"
+                className="text-blue-500 hover:underline ml-2"
+                target="_blank"
+              >
+                Read More
+              </Link>
+            </p>
+          </div>
+        </div>
+
+        <div className="education-content">
+          <div className="content">
+            <div className="year">
+              <h3>Blog API</h3>
+            </div>
+            <p>
+              A backend blog platform with user authentication, post creation, comments, and tagging. Built with FastAPI and PostgreSQL. Supports pagination and search.
+              <Link
+                href="#"
+                className="text-blue-500 hover:underline ml-2"
+                target="_blank"
+              >
+                Read More
+              </Link>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* -----------------------skill section--------------------------- */}
       <section className="skills" id="skills">
-        <h2 className="heading">
-          {" "}
-          My <span>Skills</span>
-        </h2>
-            <h3 className="skill-title">Coding Skills</h3>
+  <h2 className="heading">
+    My <span>Skills</span>
+  </h2>
+  <h3 className="skill-title">Coding Skills</h3>
 
-        <div className="skills-row">
-          <div className="skills-column">
+  <div className="skills-row">
+    <div className="skills-column">
 
-            <div className="skills-box">
-              <div className="skills-content">
-                <div className="progress">
-                  <h3>
-                    HTML <span>96%</span>
-                  </h3>
-                  <div className="bar">
-                    <span></span>
-                  </div>
-                </div>
-                <div className="progress">
-                  <h3>
-                    CSS <span>90%</span>
-                  </h3>
-                  <div className="bar">
-                    <span></span>
-                  </div>
-                </div>
-                <div className="progress">
-                  <h3>
-                    Javascript <span>85%</span>
-                  </h3>
-                  <div className="bar">
-                    <span></span>
-                  </div>
-                </div>
-                <div className="progress">
-                  <h3>
-                    React Native <span>95%</span>
-                  </h3>
-                  <div className="bar">
-                    <span></span>
-                  </div>
-                </div>
-                  <div className="bar">
-                    <span></span>
-                  </div>
-              </div>
+      <div className="skills-box">
+        <div className="skills-content">
+          <div className="progress">
+            <h3>
+              Python <span>95%</span>
+            </h3>
+            <div className="bar">
+              <span></span>
             </div>
           </div>
-
-          {/* ----------------------For another Column--------------------------- */}
-
-          <div className="skills-column">
-            {/* <h3 className="title">Professional Skills</h3> */}
-            <div className="skills-box">
-              <div className="skills-content">
-                <div className="progress">
-                  <h3>
-                  React.JS <span>90%</span>
-                  </h3>
-                  <div className="bar">
-                    <span></span>
-                  </div>
-                </div>
-                <div className="progress">
-                  <h3>
-                    Tailwind CSS <span>70%</span>
-                  </h3>
-                  <div className="bar">
-                    <span></span>
-                  </div>
-                </div>
-                <div className="progress">
-                  <h3>
-                    Express <span>87%</span>
-                  </h3>
-                  <div className="bar">
-                    <span></span>
-                  </div>
-                </div>
-                <div className="progress">
-                  <h3>
-                  Node Js <span>86%</span>
-                  </h3>
-                  <div className="bar">
-                    <span></span>
-                  </div>
-                </div>
-                  <div className="bar">
-                    <span></span>
-                </div>
-              </div>
+          <div className="progress">
+            <h3>
+              Golang <span>90%</span>
+            </h3>
+            <div className="bar">
+              <span></span>
+            </div>
+          </div>
+          <div className="progress">
+            <h3>
+              PostgreSQL <span>85%</span>
+            </h3>
+            <div className="bar">
+              <span></span>
+            </div>
+          </div>
+          <div className="progress">
+            <h3>
+              HTML <span>90%</span>
+            </h3>
+            <div className="bar">
+              <span></span>
+            </div>
+          </div>
+          <div className="progress">
+            <h3>
+              CSS <span>85%</span>
+            </h3>
+            <div className="bar">
+              <span></span>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+
+    </div>
+
+    {/* ----------------------2nd Column--------------------------- */}
+
+    <div className="skills-column">
+      <div className="skills-box">
+        <div className="skills-content">
+          <div className="progress">
+            <h3>
+              AWS (S3, EC2, Lambda) <span>80%</span>
+            </h3>
+            <div className="bar">
+              <span></span>
+            </div>
+          </div>
+          <div className="progress">
+            <h3>
+              Docker <span>75%</span>
+            </h3>
+            <div className="bar">
+              <span></span>
+            </div>
+          </div>
+          <div className="progress">
+            <h3>
+              FastAPI <span>85%</span>
+            </h3>
+            <div className="bar">
+              <span></span>
+            </div>
+          </div>
+          <div className="progress">
+            <h3>
+              Microservices Architecture <span>80%</span>
+            </h3>
+            <div className="bar">
+              <span></span>
+            </div>
+          </div>
+          <div className="progress">
+            <h3>
+              RESTful APIs <span>90%</span>
+            </h3>
+            <div className="bar">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       <section className="contact" id="contact">
         <center></center>
@@ -536,7 +531,7 @@ active:text-[var(--main-color)]"
 
       <footer className="footer">
         <div className="footer-text">
-          <p>Copyright &copy; 2024 by Joseph | All Right Reserved.</p>
+          <p>Copyright &copy; 2024 by EBNyame | All Right Reserved.</p>
         </div>
 
         <div className="footer-iconTop">
