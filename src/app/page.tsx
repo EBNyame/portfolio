@@ -29,7 +29,7 @@ export default function Home() {
      <header className={`header flex justify-end items-center transition-opacity duration-300 ${isSidebarOpen ? "opacity-50" : "opacity-100"}`}>
         <div>
           <Link href={"#home"} className="logo ">
-            Joseph
+            EBNyame
           </Link>
         </div>
         <nav className="navbar">
@@ -126,10 +126,10 @@ active:text-[var(--main-color)]"
       <section className={` bg-cover bg-center transition-opacity duration-300 ${isSidebarOpen ? "opacity-50" : "opacity-100"}`} id="home">
         <div className="home-content">
           <h1>
-            Hi, I'm<span> Joseph Acheampong</span>{" "}
+            Hi, I'm<span> Exodus</span>{" "}
           </h1>
           <div className="text-animated">
-            <h3>Full Stack Mobile  and Web Engineer</h3>
+            <h3>Backend Developer</h3>
           </div>
           <p>
             I'm a passionate Full Stack mobile and web engineer currently honing my skills at
@@ -138,6 +138,12 @@ active:text-[var(--main-color)]"
             journey, I have dived deeper into back-end technologies for building
             comprehensive <span style={{color: 'green'}}>(MERN)</span>, full-stack applications. Stay tuned as I continue to
             expand my skill set and bring innovative ideas to life!
+
+            I'm a backend developer with a strong focus on building scalable, efficient, and reliable systems using Python and Golang. At RnT Devs, I work on architecting backend services, designing RESTful and gRPC APIs, and implementing microservices that support both web and mobile platforms.
+
+            My work involves building robust server-side logic, managing databases, and ensuring application performance and security at scale. I'm particularly passionate about writing clean, maintainable code and designing systems that can evolve with growing product demands.
+
+            As I deepen my expertise in backend engineering, I remain committed to solving real-world problems with thoughtful, well-engineered solutions.
           </p>
         
           <div className="btn-box">
