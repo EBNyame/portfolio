@@ -7,7 +7,7 @@ import Link from "next/link";
 const poppins = Poppins({ subsets: ["latin"], weight : '400' });
 
 export const metadata: Metadata = {
-  title: "Joseph Portfolio",
+  title: "EBNyame Portfolio",
   description: "My portfolio",
 };
 
